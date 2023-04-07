@@ -1,0 +1,68 @@
+.main_container {width: 1200px; margin: auto; }
+.start {width: 50%; float: left; height:560px; margin:0 0 0 330px; background-color: rgb(4, 104, 104);}
+.start h1 {margin: 5px 0 0 10px; height :45px; font-family: Candara; color: rgb(134, 193, 134);}
+.about_button {width:50%; float:right; margin: -44px 20px 0 0;}
+.about_button button { background-color: rgb(2, 79, 79); font-weight: bold; color: white; margin: 0 0 0 240px; padding: 10px 14px; border-radius: 5px;}
+
+.main_quotes {width: 90%; float: left; border-radius:6px; height:400px; background-color: rgb(9, 155, 155); margin: 20px 0 0 35px;}
+.main_quotes h1 {text-align: center;}
+
+.main_quotes h1::after{
+    content: '';
+     width: 75px;
+      height: 3px;
+       border-radius: 3px;
+        position: absolute;
+         bottom: -10px;
+          left: 50%;
+transform: translateX(-50%);
+        }
+
+.main_quotes blockquote {font-size: 25px; text-align: center; min-height: 110px;}
+.main_quotes blockquote::before, .main_quotes blockquote::after{ content:'"';}
+.main_quotes span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.main_quotes div{
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main_quotes button{
+    border-radius: 5px;
+    border: 1px solid rgb(1, 10, 19);
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(4, 111, 111);
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.reserved {width: 100%; float: left;}
+.reserved h3 {
+    text-align: center;
+    margin:0;
+    color: #fff;
+    font-family: Candara    ;
+}
+
+
+
+
+
